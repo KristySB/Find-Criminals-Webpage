@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: grid;
+    justify-content: center;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    background-color: rgb(224, 255, 253);
+}
+
+.frame {
+    height: 500px;
+    width: 700px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    align-self: center;
+    margin-top: 90px;
+    margin-top: 100px;
+}
+
+.content {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    top: -430px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+h1 .span1 {
+    color: rgb(38, 124, 95);
+}
+
+h1 .span2 {
+    color: rgb(55, 164, 128);
+}
+
+.content .buttons {
+    display: inline-block;
+    text-align: center;
+}
+
+.content .buttons .common {
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.content .buttons .button1 {
+    color: white;
+    background-color: rgb(116, 232, 194);
+    border-color: rgb(116, 232, 194);
+}
+
+.content .buttons .button2 {
+    color: white;
+    background-color: rgb(117, 225, 189);
+    border-color: rgb(117, 225, 189);
+    margin-left: 10px;
+}
+
+.content .buttons .button3 {
+    color: white;
+    background-color: rgb(102, 212, 175);
+    border-color: rgb(102, 212, 175);
+    margin-left: 10px;
+}
+
+.content .buttons .button4 {
+    color: white;
+    background-color: rgb(86, 199, 161);
+    border-color: rgb(86, 199, 161);
+    margin-left: 10px;
+}

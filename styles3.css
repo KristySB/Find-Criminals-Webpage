@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: grid;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    place-items: center;
+    background-color: rgb(224, 255, 253);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.frame {
+    height: 700px;
+    width: 700px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+    align-self: center;
+}
+
+.input {
+    position: relative;
+    height: 60px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    top: -680px;
+}
+
+.submitBtn {
+    position: relative;
+    font-size: 15px;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    padding: 10px 15px;
+    color: white;
+    border-color: rgb(117, 225, 189);
+    border-radius: 10px;
+    background-color: rgb(117, 225, 189);
+    top: -680px;
+}
+
+.criminals {
+    position: relative;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    top: -680px;
+    color: rgb(21, 69, 53);
+}
